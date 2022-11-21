@@ -8,7 +8,7 @@
 <!-- 
     Program Name:   Seminole Weather Channel
     Author: John Soto
-    Date: 12/12/2018
+    Date: 11/21/2022
     Filename:   index.html
 -->
 
@@ -47,7 +47,7 @@
 
 <!-- 
     Section #2:      The following section displays the 10 day weather forecast data retreived from the web 
-                     service (Apixu API).  
+                     service (Weather API).  
     
     Explanation:     Placeholders or ids are defined in the HTML code below to indicate where the values retrieved from
                      the server will be placed.  Bootstrap framework is used to design the table/panels used to display the 
@@ -67,7 +67,7 @@
   
   <p class="list-group-item-text lead text-primary text-center">Enter the Location (zipcode, IP address, Latitude/Longitude (decimal degree) or city name), then Click <b>Weather</b>:</p><br />
 
-  <p class="list-group-item-text lead text-primary text-center"> Location: <input type="text" id="searchValue"></p><br />
+  <p class="list-group-item-text lead text-primary text-center"> Location: <input type="text" id="searchValue"></p><br/>
 
   <center><button type="submit" class="btn-lg btn-info" id="Weather" ><span class="glyphicon glyphicon-search"></span>Weather</button></center>
     
@@ -118,7 +118,7 @@
 </div>
 <!-- 
     Section #3:      The following section WILL display the 10 day weather forecast data retreived from the web 
-                     service (Apixu API).  
+                     service (Weather API).  
     
     Explanation:     Placeholders or ids are defined in the HTML code below to indicate where the values retrieved from
                      the server will be placed.  Bootstrap framework is used to design the table/panels used to display the 
@@ -188,67 +188,6 @@
 
 
 <!--  PASTE AND MODIFY YOUR NEW ROWS BELOW THIS TO ADD PLACEHOLDERS FOR FORECASTS FOR DAYS 4-7!!! -->
-<div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 4 Low:</b></h3>  
-      <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day4Low"> </p></div> 
-      <div class="container"></div>
-    </div>
- 
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 4 High:</b></h3> 
-       <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day4High"> </p></div> 
-       <div class="container"></div>
-    </div>
-
-    <div class="col-sm-2"></div>
-</div>
-
-<div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 5 Low:</b></h3>  
-      <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day5Low"> </p></div> 
-      <div class="container"></div>
-    </div>
- 
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 5 High:</b></h3> 
-       <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day5High"> </p></div> 
-       <div class="container"></div>
-    </div>
-
-    <div class="col-sm-2"></div>
-</div>
-
-<div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 6 Low:</b></h3>  
-      <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day6Low"> </p></div> 
-      <div class="container"></div>
-    </div>
- 
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 6 High:</b></h3> 
-       <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day6High"> </p></div> 
-       <div class="container"></div>
-    </div>
-
-    <div class="col-sm-2"></div>
-</div>
-
-<div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 7 Low:</b></h3>  
-      <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day7Low"> </p></div> 
-      <div class="container"></div>
-    </div>
- 
-    <div class="col-sm-4" style="background-color:lightpink;"><h3 class="list-group-item-heading"><b>Day 7 High:</b></h3> 
-       <div class="well" well-sm><p class="list-group-item-text lead text-primary" id="Day7High"> </p></div> 
-       <div class="container"></div>
-    </div>
-
-    <div class="col-sm-2"></div>
-</div>
-
-
 
 <!-- END OF HTML CODE TO CREATE THE ROWS OR PLACEHOLDERS FOR 10 DAY FORECAST RETRIEVED FROM THE SERVER -->
 </div>

@@ -89,10 +89,10 @@
 
         $(document).ready(function(){
            $(':button').click(function(){
-                var message = 'q=' + $('#searchValue').val()+'&days=10';   
+                var message = 'q=' + $('#searchValue').val()+'&days=3';   
                 $.ajax({
                       type: 'GET',
-                      url: 'https://api.apixu.com/v1/forecast.json?key=c893be9c17b24d13a89163714181212',
+                      url: 'http://api.weatherapi.com/v1/forecast.json?key=377ae3a918d4400faae223112220307',
                       data: message             
                 })
                 .done(function(json){
